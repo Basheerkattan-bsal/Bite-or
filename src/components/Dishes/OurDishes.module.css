@@ -1,0 +1,30 @@
+.dishes {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: dishes 1s ease-out forwards;
+  display: flex;
+  justify-content: center;
+}
+
+.dishes ul {
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  
+  
+}
+
+@keyframes dishes {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

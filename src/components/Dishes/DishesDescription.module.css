@@ -1,0 +1,39 @@
+/* 
+h2 colors:
+#C6EBC5 
+#D2DAFF
+#EEEEEE
+#FFC090
+*/
+
+.description {
+  text-align: center;
+  max-width: 50rem;
+  width: 90%;
+  margin: auto;
+ 
+  color: white;
+  border-radius: 0.8rem;
+  padding: 1rem;
+  
+}
+
+.offer:hover{
+    transform: scale(2, 3 );
+    transition-duration:  2s;
+    background-image:linear-gradient(to right, rgb(198, 235, 197), rgb(210, 218, 255), rgb(238, 238, 238), rgb(255, 192, 144)) ;
+    -webkit-background-clip: text;
+    color:transparent;
+
+   
+}
+
+
+
+.description h2 {
+    background-image: linear-gradient(to right, rgb(198, 235, 197), rgb(210, 218, 255), rgb(238, 238, 238), rgb(255, 192, 144));
+    color: transparent; 
+    -webkit-background-clip: text;
+  font-size: 2.5rem;
+  margin-top: 0;
+}

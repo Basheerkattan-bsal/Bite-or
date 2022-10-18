@@ -1,0 +1,39 @@
+.button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color:rgba(0, 0, 0, 0.501);
+    color: white;
+    padding: 0.75rem 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  .cartHome{
+    font-size: 1.5rem;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: rgba(57, 44, 44, 0.518);
+  }
+  
+  .icon {
+    width: 1.35rem;
+    height: 1.35rem;
+    margin-right: 1rem;
+  }
+  
+  .quantity {
+    background-color:rgba(88, 16, 16, 0.596);
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  
+ 

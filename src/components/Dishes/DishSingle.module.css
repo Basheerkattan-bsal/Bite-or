@@ -1,0 +1,36 @@
+.dishBox {
+    padding: 1rem;
+    
+   
+  }
+  
+  .dishBox img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    padding: 0.5rem;
+    border-radius: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.332);
+    box-shadow: 5px 5px 5px #48434390;
+  }
+  
+  .dishBox h3 {
+    font-family:fantasy;
+    font-size: 1.4rem;
+    color: rgb(165, 207, 165);
+    letter-spacing: 0.2rem
+    
+  }
+
+  .description{
+    color: rgb(165, 207, 165);
+    font-style: italic;
+  }
+
+  .price{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: green;
+    background-color: rgba(0, 0, 0, 0.332);
+    border-radius: 50px
+  }
